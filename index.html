@@ -249,21 +249,6 @@
             }, 3000);
         }
 
-        function copyDiscordInvite() {
-            const discordInvite = "https://discord.gg/ERV"; 
-
-            const input = document.createElement('input');
-            input.setAttribute('value', discordInvite);
-            document.body.appendChild(input);
-
-            input.select();
-            input.setSelectionRange(0, 99999);
-
-            document.execCommand('copy');
-
-            document.body.removeChild(input);
-        }
-
         function goToDiscord() {
             window.open("https://discord.gg/ERV", "_blank");
         }
@@ -282,7 +267,7 @@
         <div class="script-box">loadstring(game:HttpGet("https://ervcommunity.com/ascend.lua"))()</div>
         <button class="copy-button" onclick="copyScript(this); showNotification()">Copy Script</button>
     </div>
-    <button class="discord-button" onclick="copyDiscordInvite(); goToDiscord();">
+    <button class="discord-button" onclick="goToDiscord();">
         <img src="discord_logo.png" alt="Discord Logo">
     </button>
 </body>
