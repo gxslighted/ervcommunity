@@ -59,4 +59,7 @@ return {
   7980481995, -- BeginnerInLegends
   3162556171, -- IchNichtHi
   7988832775, -- BeginnerInLegend
+  289798626, -- EvanFireskull
+  7296625627, -- GreenGMonster
+  7862248467, -- font_Arial
 }
