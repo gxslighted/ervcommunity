@@ -53,4 +53,6 @@ return {
   3169297885, -- ghnghdh
   2922531371, -- NarutoShippuden10203
   5343719496, -- creamiesoda4
+  7890262563, -- Andrew_Thegoat02
+  2056355141, -- Kitelaku
 }
