@@ -1037,6 +1037,7 @@ function Library:CreateWindow()
                 local UIStroke_5 = Instance.new("UIStroke")
                 local UIListLayout_4 = Instance.new("UIListLayout")
                 local UIPadding_11 = Instance.new("UIPadding")
+                local OptionScrolling = Instance.new("ScrollingFrame")
 
                 DropdownFrame_1.Name = "DropdownFrame"
                 DropdownFrame_1.Parent = Items_1
@@ -1120,9 +1121,33 @@ function Library:CreateWindow()
                 OptionsFrame_1.BorderColor3 = Color3.fromRGB(0,0,0)
                 OptionsFrame_1.BorderSizePixel = 0
                 OptionsFrame_1.Position = UDim2.new(0.764999986, 0,1.20000005, 0)
-                OptionsFrame_1.Size = UDim2.new(0, 67,0, 16)
+                OptionsFrame_1.Size = UDim2.new(0, 67,0, 70)
                 OptionsFrame_1.Visible = false
                 OptionsFrame_1.ZIndex = 4
+
+                OptionScrolling.Name = "Tabs"
+                OptionScrolling.Parent = OptionsFrame_1
+                OptionScrolling.Active = true
+                OptionScrolling.BackgroundColor3 = Color3.fromRGB(255,255,255)
+                OptionScrolling.BackgroundTransparency = 1
+                OptionScrolling.BorderColor3 = Color3.fromRGB(0,0,0)
+                OptionScrolling.BorderSizePixel = 0
+                OptionScrolling.Size = UDim2.new(1, 0,1, 0)
+                OptionScrolling.ClipsDescendants = true
+                OptionScrolling.AutomaticCanvasSize = Enum.AutomaticSize.X
+                OptionScrolling.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
+                OptionScrolling.CanvasPosition = Vector2.new(0, 0)
+                OptionScrolling.CanvasSize = UDim2.new(0, 0,0.5, 0)
+                OptionScrolling.ElasticBehavior = Enum.ElasticBehavior.Never
+                OptionScrolling.HorizontalScrollBarInset = Enum.ScrollBarInset.None
+                OptionScrolling.MidImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
+                OptionScrolling.ScrollBarImageColor3 = Color3.fromRGB(0,0,0)
+                OptionScrolling.ScrollBarImageTransparency = 1
+                OptionScrolling.ScrollBarThickness = 1
+                OptionScrolling.ScrollingDirection = Enum.ScrollingDirection.Y
+                OptionScrolling.TopImage = "rbxasset://textures/ui/Scroll/scroll-top.png"
+                OptionScrolling.VerticalScrollBarInset = Enum.ScrollBarInset.None
+                OptionScrolling.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
 
                 UICorner_8.Parent = OptionsFrame_1
                 UICorner_8.CornerRadius = UDim.new(0,4)
@@ -1174,7 +1199,7 @@ function Library:CreateWindow()
                     local UIPadding_10 = Instance.new("UIPadding")
 
                     OptionButton_1.Name = "OptionButton"
-                    OptionButton_1.Parent = OptionsFrame_1
+                    OptionButton_1.Parent = OptionScrolling
                     OptionButton_1.Active = true
                     OptionButton_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
                     OptionButton_1.BackgroundTransparency = 1
