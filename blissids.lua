@@ -55,4 +55,8 @@ return {
   5343719496, -- creamiesoda4
   7890262563, -- Andrew_Thegoat02
   2056355141, -- Kitelaku
+  3247681785, -- BinBroPro
+  7980481995, -- BeginnerInLegends
+  3162556171, -- IchNichtHi
+  7988832775, -- BeginnerInLegend
 }
