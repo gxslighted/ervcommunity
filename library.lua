@@ -1134,7 +1134,7 @@ function Library:CreateWindow()
                 OptionScrolling.BorderSizePixel = 0
                 OptionScrolling.Size = UDim2.new(1, 0,1, 0)
                 OptionScrolling.ClipsDescendants = true
-                OptionScrolling.AutomaticCanvasSize = Enum.AutomaticSize.X
+                OptionScrolling.AutomaticCanvasSize = Enum.AutomaticSize.Y
                 OptionScrolling.BottomImage = "rbxasset://textures/ui/Scroll/scroll-bottom.png"
                 OptionScrolling.CanvasPosition = Vector2.new(0, 0)
                 OptionScrolling.CanvasSize = UDim2.new(0, 0,0.5, 0)
