@@ -1038,7 +1038,7 @@ function Library:CreateWindow()
                 local UIListLayout_4 = Instance.new("UIListLayout")
                 local UIPadding_11 = Instance.new("UIPadding")
                 local OptionScrolling = Instance.new("ScrollingFrame")
-
+                              
                 DropdownFrame_1.Name = "DropdownFrame"
                 DropdownFrame_1.Parent = Items_1
                 DropdownFrame_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
@@ -1157,11 +1157,11 @@ function Library:CreateWindow()
                 UIStroke_5.Thickness = 1
                 UIStroke_5.Transparency = 0.7
 
-                UIListLayout_4.Parent = OptionsFrame_1
+                UIListLayout_4.Parent = OptionScrolling
                 UIListLayout_4.Padding = UDim.new(0,4)
                 UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
 
-                UIPadding_11.Parent = OptionsFrame_1
+                UIPadding_11.Parent = OptionScrolling
                 UIPadding_11.PaddingBottom = UDim.new(0,2)
 
                 local isDropdownOpen = false
