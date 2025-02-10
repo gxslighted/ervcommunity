@@ -71,4 +71,6 @@ return {
   7032677984, -- Melt5902
   4196253802, -- xXGamerJosh_21Xx
   4140957689, -- Mikejjjjj12345
+  1223788228, -- alakdan199
+  4142495462, -- liluzidirt0
 }
