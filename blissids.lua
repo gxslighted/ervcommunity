@@ -67,4 +67,8 @@ return {
   286689962, -- itzmeens
   7719329839, -- Opgekenkertaap
   3370201432, -- Zwvmperd
+  4321264529, -- Godcharly1
+  7032677984, -- Melt5902
+  4196253802, -- xXGamerJosh_21Xx
+  4140957689, -- Mikejjjjj12345
 }
