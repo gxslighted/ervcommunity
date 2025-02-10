@@ -63,4 +63,8 @@ return {
   7296625627, -- GreenGMonster
   7862248467, -- font_Arial
   5735050322, -- god_elmo9
+  3390967534, -- bob462847483
+  286689962, -- itzmeens
+  7719329839, -- Opgekenkertaap
+  3370201432, -- Zwvmperd
 }
